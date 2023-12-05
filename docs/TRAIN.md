@@ -5,9 +5,11 @@ Make sure to update the `DATA` variable with dataset path in the script file and
 Below we provide detailed training and testing instructions.
 
 ## Zero-shot Ensemble
-<!-- <img src="../docs/zs_en.png" alt="main figure" width="50%"> -->
 
-![main figure](../docs/zs_en.png)
+<div style="text-align: center;">
+    <img src="../docs/zs_en.png" alt="zs" width="60%">
+</div>
+
 
 #### Zero-shot set-up
 Neither training nor labeled data is required in this set-up. Our zero-shot ensemble (ZS$_{En}$) is an effective way to use multiple VLMs.
@@ -24,7 +26,9 @@ bash scripts/zs_en/test.sh imagenet gpu
 
 ## Training-free Ensemble
 
-![main figure](../docs/tf_en.png)
+<div style="text-align: center;">
+    <img src="../docs/tf_en.png" alt="tf" width="60%">
+</div>
 
 #### Base-to-new generalization set-up
 
@@ -91,7 +95,9 @@ The above steps can be repeated for other individual datasets.
 
 ## Tuning Ensemble
 
-![main figure](../docs/tune_en.png)
+<div style="text-align: center;">
+    <img src="../docs/tune_en.png" alt="tune" width="60%">
+</div>
 
 #### (1) Base-to-new generalization set-up
 
