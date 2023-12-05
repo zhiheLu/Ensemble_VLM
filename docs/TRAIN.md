@@ -12,9 +12,9 @@ Below we provide detailed training and testing instructions.
 
 
 #### Zero-shot set-up
-Neither training nor labeled data is required in this set-up. Our zero-shot ensemble (ZS$_{En}$) is an effective way to use multiple VLMs.
+Neither training nor labeled data is required in this set-up. Our zero-shot ensemble (ZS<sub>En</sub>) is an effective way to use multiple VLMs.
 
-Run the commands below for ZS$_{En}$ on ImageNet.
+Run the commands below for ZS<sub>En</sub> on ImageNet.
 
 ```bash
 # Other possible dataset values includes [caltech101, food101, dtd, ucf101, oxford_flowers, oxford_pets, fgvc_aircraft, stanford_cars, sun397, eurosat]
@@ -32,9 +32,9 @@ bash scripts/zs_en/test.sh imagenet gpu
 
 #### Base-to-new generalization set-up
 
-Our training-free ensemble (TF$_{En}$) leverages greedy search on base classes to acquire the `relatively` optimal weights for ensemble.
+Our training-free ensemble (TF<sub>En</sub>) leverages greedy search on base classes to acquire the `relatively` optimal weights for ensemble.
 
-Run the commands below for TF$_{En}$ on ImageNet.
+Run the commands below for TF<sub>En</sub> on ImageNet.
 
 ```bash
 # Other possible dataset values includes [caltech101, food101, dtd, ucf101, oxford_flowers, oxford_pets, fgvc_aircraft, stanford_cars, sun397, eurosat]
@@ -101,9 +101,9 @@ The above steps can be repeated for other individual datasets.
 
 #### (1) Base-to-new generalization set-up
 
-Our tuning ensemble (T$_{En}$) generates ensemble weights conditioned on input features.
+Our tuning ensemble (T<sub>En</sub>) generates ensemble weights conditioned on input features.
 
-Run the commands below for T$_{En}$ on ImageNet.
+Run the commands below for T<sub>En</sub> on ImageNet.
 
 ```bash
 # Other possible dataset values includes [caltech101, food101, dtd, ucf101, oxford_flowers, oxford_pets, fgvc_aircraft, stanford_cars, sun397, eurosat]
@@ -131,8 +131,8 @@ Follow the same way as that in training-free ensemble to obtain the averaged res
 
 
 #### (2) Cross-Dataset Transfer setting
-We provide instructions to train T$_{En}$ on ImageNet using all 1000 classes with 16 shots and then evaluating it directly on new downstream datasets.
-* Firstly, train T$_{En}$ on imagenet in few-shot manner (for all 3 seeds).
+We provide instructions to train T<sub>En</sub> on ImageNet using all 1000 classes with 16 shots and then evaluating it directly on new downstream datasets.
+* Firstly, train T<sub>En</sub> on imagenet in few-shot manner (for all 3 seeds).
 
 ```bash
 # seed=1 
@@ -161,7 +161,7 @@ You can obtain averaged results by using the script `parse_test_res.py` and foll
 ## Tuning Ensemble on Baseline Methods
 We also provide the code for using our tuning ensemble on two baseline methods, i.e., CoCoOp (CVPR2022) and PromptSRC (ICCV2023).
 First, you can follow the instruction in `docs` to train them.
-Then run the commands below for CoCoOp + T$_{En}$ on ImageNet.
+Then run the commands below for CoCoOp + T<sub>En</sub> on ImageNet.
 
 
 ```bash
@@ -186,7 +186,7 @@ bash scripts/baseline_en/train_cocoop.sh imagenet 3 gpu model_dir
 bash scripts/baseline_en/test_cocoop.sh imagenet 3 gpu new model_dir
 ```
 
-And run the commands below for PromptSRC + T$_{En}$ on ImageNet.
+And run the commands below for PromptSRC + T<sub>En</sub> on ImageNet.
 
 ```bash
 # Other possible dataset values includes [caltech101, food101, dtd, ucf101, oxford_flowers, oxford_pets, fgvc_aircraft, stanford_cars, sun397, eurosat]
