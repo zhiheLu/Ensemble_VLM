@@ -1,7 +1,6 @@
 # Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models
 
 
-> [**Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models**](https://arxiv.org/pdf/2311.17091.pdf)<br>
 > Zhihe Lu, Jiawang Bai, Xin Li, Zeyu Xiao, Xinchao Wang
 
 
