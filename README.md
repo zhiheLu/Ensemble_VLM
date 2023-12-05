@@ -12,7 +12,10 @@
 
 ## Highlights
 
-![main figure](docs/radar.png)
+<div style="text-align: center;">
+    <img src="docs/radar.png" alt="radar" width="70%">
+</div>
+
 > <p align="justify"> Description of above figure: Comparing existing methods on base-to-new generalization across 11 recognition datasets averaged over 3 seeds. The results indicate that the proposed method outperforms existing arts on 11 diverse datasets, often by large margins. </p>
 
 
