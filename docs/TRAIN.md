@@ -6,9 +6,9 @@ Below we provide detailed training and testing instructions.
 
 ## Zero-shot Ensemble
 
-<div style="text-align: center;">
+<p align="center">
     <img src="../docs/zs_en.png" alt="zs" width="60%">
-</div>
+</p>
 
 
 #### Zero-shot set-up
@@ -26,9 +26,9 @@ bash scripts/zs_en/test.sh imagenet gpu
 
 ## Training-free Ensemble
 
-<div style="text-align: center;">
+<p align="center">
     <img src="../docs/tf_en.png" alt="tf" width="60%">
-</div>
+</p>
 
 #### Base-to-new generalization set-up
 
@@ -95,9 +95,9 @@ The above steps can be repeated for other individual datasets.
 
 ## Tuning Ensemble
 
-<div style="text-align: center;">
+<p align="center">
     <img src="../docs/tune_en.png" alt="tune" width="60%">
-</div>
+</p>
 
 #### (1) Base-to-new generalization set-up
 
