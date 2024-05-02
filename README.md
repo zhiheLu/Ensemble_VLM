@@ -1,4 +1,4 @@
-# Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models
+# Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models, ICML2024
 
 
 > Zhihe Lu, Jiawang Bai, Xin Li, Zeyu Xiao, Xinchao Wang
