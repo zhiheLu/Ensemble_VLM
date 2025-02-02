@@ -34,11 +34,11 @@ Please refer to the [TRAIN.md](docs/TRAIN.md) for detailed instructions on train
 ## Citation
 If you find our work or this repository useful, please consider giving a star :star: and citation.
 ```bibtex
-@article{lu2023beyond,
+@inproceedings{lubeyond,
   title={Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models},
   author={Lu, Zhihe and Bai, Jiawang and Li, Xin and Xiao, Zeyu and Wang, Xinchao},
-  journal={arXiv preprint arXiv:2311.17091},
-  year={2023}
+  booktitle={Forty-first International Conference on Machine Learning},
+  year={2024}
 }
 ```
 
